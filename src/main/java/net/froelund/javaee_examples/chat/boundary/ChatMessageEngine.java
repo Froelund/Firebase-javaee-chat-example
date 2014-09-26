@@ -1,13 +1,13 @@
 package net.froelund.javaee_examples.chat.boundary;
 
-import net.froelund.javaee_examples.chat.entity.ChatMessage;
-import net.froelund.javaee_examples.chat.event.Change;
-import net.froelund.javaee_examples.chat.event.Delete;
-import net.froelund.javaee_examples.chat.event.New;
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
+import net.froelund.javaee_examples.chat.entity.ChatMessage;
+import net.froelund.javaee_examples.chat.event.Change;
+import net.froelund.javaee_examples.chat.event.Delete;
+import net.froelund.javaee_examples.chat.event.New;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
